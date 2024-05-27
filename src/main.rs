@@ -24,5 +24,7 @@ fn value_in_cents(coin: Coin) -> u8 {
             println!("State quarter: {:?}", state);
             25},
     }
-} //say quarter = value_in_cents(Coin::Quarter(UsState::Alaska)), then the binding works because it connects the quarter to the quarter and the state to Alaska
-//match against an enum, bind a variable to the data inside, and then execute code based on it
+} /*
+say quarter = value_in_cents(Coin::Quarter(UsState::Alaska)), then the binding works because it connects the quarter to the quarter and the state to Alaska
+match against an enum, bind a variable to the data inside, and then execute code based on it
+*/
